@@ -1,0 +1,251 @@
+    
+        p {
+            font-family: Roboto, Arial;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        body {
+            padding: 0;
+            margin: 0 10px 0 10px;
+            height: 3000px;
+            padding-top:70px; 
+            padding-left: 94px;
+        }
+        .header{
+            display:flex;
+            justify-content: space-between;
+            height: 50px;
+            position: fixed;
+            top: 0;
+            left:0;
+            right:0;
+            background-color: white;
+            border-bottom-width: 1px; 
+            border-bottom-style:solid ;
+            border-bottom-color:rgb(224, 223, 223);
+                }
+                .left-section{
+                display: flex;
+                align-items: center;
+
+                }
+                .menu-bar{
+                  height: 24px;
+                  margin-left: 20px
+;
+                }
+                .youtube-logo{
+                    height: 24px;
+                    margin-left: 20px;
+                }
+                .mid-section{
+                margin-left: 70px;
+                margin-right: 35px;
+                flex: 1;
+                max-width: 500px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+        
+                }
+                .search-bar{
+                    flex: 1;
+                    height:40px;
+                   padding-left: 1px; 
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: rgb(160, 160, 160);
+                    border-radius: 2px;
+                    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05) ;
+                    width: 0;
+                }
+                .search-bar::placeholder{
+                    font-family: Roboto,arial;
+                    font-size: 16px;
+                    padding-left: 10px; 
+                }
+                .search-button{
+                   height: 40px;
+                   width: 60px;
+                   background-color:  rgb(240, 240, 240);
+                   border-width: 1px;
+                    border-style: solid;
+                    border-color: rgb(160, 160, 160);
+                    margin-left: -2px;
+                }
+                .voice-search-btn{
+                    height:40px;
+                    width: 40px;
+                    margin-left: 10px;
+                    border-radius: 32px;
+                    border: none;
+                    border-color: gray;
+
+                }
+                .search-icon{
+                    height:20px;
+                    margin-top: 2px;
+                    color:gray;
+                }
+                .voice-search-icon{
+               height: 20px;
+                }
+                .right-section{
+                    width: 200px;
+                    display:flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-right: 25px;
+                    flex-shrink: 0;
+        }
+
+        .upload-btn{
+            height:40px;
+            width: 40px;
+            background-color:  white;
+            border: none;
+            margin: 0;
+        }
+        .app-btn{
+            height: 40px;
+            width:40px;
+              background-color:  white;
+            border: none;
+        }
+        .notification-btn{
+            height: 40px;
+            width: 40px;
+            background-color:  white;
+            border: none;
+        }
+        .profile-channel-pic{
+            width: 40px;
+            border-radius: 20px;
+          
+        }
+        .sidebar{
+            background-color: white;
+            position: fixed;
+            top: 50px;
+            bottom: 0;
+            left: 0;
+            width: 90px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .btn{
+            
+            height: 20px;
+            width: 20px;
+            
+        }
+        .icon-h{
+            background-color: white;
+       width: 60px;
+        border:none;
+        margin-top: 40px;
+        color:gray;
+        cursor:pointer;
+        
+        }
+      .icon-e,.icon-s,.icon-o,.icon-y,.icon-l{
+        background-color: white;
+       width: 60px;
+        border:none;
+        margin-top: 40px;
+        color:gray;
+        cursor:pointer;
+      }
+      .icon:hover{
+        color: black;
+
+      }
+      .icon:active{
+        color: black;
+        background-color: rgb(205, 205, 205);
+      }
+      .sidebar-p{
+        font-size: 12px;
+        position: absolute;
+        left: 30px;
+      }
+      .sidebar-p-home{
+        font-size: 12px;
+        position: absolute;
+        width: 30px;
+        background-color: gray;
+        left: 32px;
+      }
+      .sidebar-p-explore{
+        font-size: 12px;
+        position: absolute;
+        left: 28px;
+      }
+      .sidebar-p-long{
+        position: absolute;
+        left:10px;
+        font-size: 12px;
+      }
+      .sidebar-p-orginals{
+        position: absolute;
+        left: 24px;
+        font-size: 12px;
+      }
+        
+        .thumbnail {
+            width: 100%;
+            cursor: pointer;
+        }
+        .video-title {
+            font-family: Roboto, Arial;
+            font-weight: bold;
+            display: block;
+            font-size: 16px;
+            line-height: 24px;
+            cursor: pointer;
+        }
+        .video-stats {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 10px;
+            font-size: 14px;
+            color: rgb(96, 96, 96);
+        }
+        .video-author {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 10px;
+            font-size: 15px;
+            color: rgb(96, 96, 96);
+        }
+        .video-info-grid {
+            display: grid;
+            grid-template-columns: 50px 1fr;
+        }
+        .channel-picture {
+            width: 50px;
+            vertical-align: top;
+        }
+        .thumbnail-row {
+            margin-bottom: 12px;
+        }
+        .video-info {
+            width:100%;
+        }
+        .profile-picture {
+            width: 40px;
+            border-radius: 32px;
+        }
+        .videos-grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+@media screen and (max-width:768px) {
+    .videos-grid-container {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}

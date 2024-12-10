@@ -1,0 +1,87 @@
+.header{
+    height:20vh;
+    display: flex;
+    align-items: baseline;
+}
+.explore{
+   position: absolute;
+   left: 240px;
+   bottom:30px;
+}
+.btn-image{
+    height: 40px;
+    margin-top: 30px;
+    position: absolute;
+    left: 200px;
+    bottom:45px;
+}
+.NOW{
+    font-family: Roboto Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 200px;
+    bottom:5px;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: white;
+    color:gray;
+    border-width:1px ;
+    border:none;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.Music{
+    position: absolute;
+    left: 270px;
+    bottom:5px;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: white;
+    border-width:1px ;
+    color:gray;
+    border:none;
+    cursor: pointer;
+}
+.Gaming{
+    position: absolute;
+    left: 340px;
+    bottom:5px;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: white;
+    color:gray;
+    border-width:1px ;
+    border:none;
+    cursor: pointer;
+}
+.Movies{
+    position: absolute;
+    left: 430px;
+    bottom:5px;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: white;
+    color:gray;
+    border-width:1px ;
+    border:none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.NOW:hover, .Music:hover , .Gaming:hover, .Movies:hover{
+    text-decoration: underline;
+    text-underline-offset:10px;
+ 
+}
+.NOW:active, .Music:active , .Gaming:active, .Movies:active{
+    text-decoration: underline;
+    color: black;
+    text-underline-offset:10px;
+ 
+}
+.h1-videos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: gray;
+}
